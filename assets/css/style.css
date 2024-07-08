@@ -53,6 +53,10 @@ body {
     padding: 4rem 0;
 }
 
+.col-lg-6 {
+    align-content: center;
+}
+
 #about .container {
     display: flex;
     justify-content: center;
@@ -60,6 +64,10 @@ body {
     flex-direction: column;
     text-align: center;
     padding-top: 80px;
+}
+
+#about p{
+    text-align: left;
 }
 
 #about img {
@@ -112,6 +120,10 @@ body {
     color: #1572b6;
 }
 
+.tech-icons .fa-js-square {
+    color: #efd81d;
+}
+
 .tech-icons .fa-bootstrap {
     color: #563d7c;
 }
@@ -123,7 +135,6 @@ body {
 .tech-icons .fa-elementor {
     color: #ff7be5;
 }
-
 
 
 /* Contact section styles */
@@ -143,5 +154,9 @@ footer {
 @media (max-width: 768px) {
     #hero {
         height: 80vh;
+    }
+
+    .col-lg-6 {
+        align-content: center;
     }
 }
