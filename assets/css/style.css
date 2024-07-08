@@ -43,6 +43,11 @@ body {
     font-size: 1.5rem;
 }
 
+#unique {
+    color: #1cbbb4;
+    font-weight: 600 !important;
+}
+
 /* About section styles */
 #about {
     padding: 4rem 0;

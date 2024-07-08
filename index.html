@@ -79,7 +79,7 @@
       "
     >
       <div class="container text-center text-white">
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Hi! I am Mark Kevin a <span id="unique">Web Developer</span></h1>
         <p class="lead">
           I'm a passionate web developer ready to create amazing websites.
         </p>
@@ -93,8 +93,20 @@
           <div class="col-lg-8">
             <h2>About Me</h2>
             <p>
-              This is where you can introduce yourself, talk about your skills,
-              experience, and passion for web development.
+              Hi, I'm Mark Kevin, a BSIT graduate from Saint Louis University
+              with almost 3 years of experience in web development, spanning my
+              college years, freelance projects, and previous employment. During
+              my tenure as a web developer, I've specialized in WordPress,
+              having built a lot of websites. My expertise extends to utilizing
+              page builders like Elementor, WP Bakery, and Guttenberg, as well
+              as implementing custom code for API integration. I've also honed
+              my skills in website maintenance, including cPanel hosting
+              management, backup procedures, and malware protection.
+              Furthermore, I focus on optimizing website performance, achieving
+              high scores on tools like PageSpeed Insight, and ensuring
+              responsiveness across various devices. I'm dedicated to staying
+              updated with the latest technologies and methodologies in web
+              development to deliver top-notch solutions.
             </p>
             <img
               src="./assets/images/profile.jpg"
@@ -432,15 +444,17 @@
     </section>
 
     <!-- Contact Section -->
+    <!-- Contact Section -->
     <section id="contact" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">Contact Me</h2>
         <div class="row">
           <div class="col-md-6 mx-auto">
-            <form>
+            <form action="send-mail.php" method="POST">
               <div class="form-group">
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   placeholder="Your Name"
                   required
@@ -449,6 +463,7 @@
               <div class="form-group">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   placeholder="Your Email"
                   required
@@ -456,6 +471,7 @@
               </div>
               <div class="form-group">
                 <textarea
+                  name="message"
                   class="form-control"
                   rows="5"
                   placeholder="Message"
